@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<chapter>
+
+<title>Project driehoeksmeting (Nederlands-wiskunde)</title>
+<introduction>
+  <sidebyside widths="65% 20%" margins="0% 10%" valign="middle">
+    <p>
+      Vorige week heb je een aantal fragmenten gelezen uit het boek <q>Als je het licht niet kunt zien</q>' van Anthony Doerr. Deze week pluizen we de wiskunde die daarin aan bod komt verder uit.
+    </p>
+    <image source="licht.jpeg"/>
+  </sidebyside>
+</introduction>
+
+<section>
+  <title>Triangulatie: op zoek naar de radiozender</title>
+  <p>
+    Zoals je al weet is goniometrie of trigonometrie de tak van de wiskunde die ontstaan is uit de studie van driehoeken. Goniometrie was ook onontbeerlijk voor het maken van de eerste nauwkeurige kaarten.
+  </p>
+  <p>
+    In fragment 2 (Nadel im Heubaufen) spoort Werner de positie van een radiozender op met behulp van twee zendontvangers en een aantal wiskundige berekeningen. Het doel van de eerste opdracht is achterhalen hoe Werner te werk gegaan is.
+  </p>
+  <activity>
+    <ol>
+      <li>
+        <p>
+          Teken een willekeurige driehoek. Noem <m>A</m> en <m>B</m> de hoekpunten waar Werner zijn ontvangers zet en <m>C</m> het hoekpunt waar de zender zich bevindt.
+        </p>
+      </li>
+      <li>
+        <p>
+          Welke metingen voert Werner uit om de positie van de zender te kunnen bepalen? Duid deze met het gepaste symbool op de tekening aan.
+        </p>
+      </li>
+      <li>
+        <p>
+          De formules die Werner gebruikt om de berekeningen uit te voeren komen aan bod in fragment 1 (De som van hoeken). Hauptmann schuift deze formule onder zijn neus:
+          <me>
+            l=\frac{d}{\tan \alpha}+\frac{d}{\tan \beta}
+          </me>
+          Wat is de betekenis van <m>l</m> en <m>d</m>? Duid beide afstanden aan op de tekening en stel vervolgens de formule zelf op.
+        </p>
+      </li>
+      <li>
+        <p>
+          Werner rekent vervolgens nog even verder tot hij uitkomt bij
+          <me>
+            d = \frac{l \sin \alpha \sin \beta}{\sin(\alpha + \beta)}
+          </me>
+          Doe dit eveneens zelf. In principe geeft deze formule geen nieuwe informatie: Werner zet gewoon de tangensen om naar sinussen. Kan je hiervoor een reden bedenken?
+        </p>
+      </li>
+      <li>
+        <p>
+          Door de bovenstaande formule te gebruiken is Werner in staat om de zender te lokaliseren. Op p. 255 staat
+        </p>
+        <blockquote>
+          <p>
+            Werner noteert de vergelijking op de metalen bak van de ontvanger en begint getallen in te voegen. Binnen twee minuten heeft Werner een vector en een afstand; tweeënhalve kilometer.
+          </p>
+        </blockquote>
+        <p>
+          Over welke vector en afstand gaat het hier?
+        </p>
+      </li>
+    </ol>
+  </activity>
+</section>
+
+<section>
+  <title>Goniometrische tabellen opstellen</title>
+  <p>
+    Werner heeft geen zakrekenmachine om sinussen te berekenen, maar gebruikt een rekenliniaal (foto links). Voor de 17de eeuw bestonden er ook geen rekenlinialen en waren tabellen met sinuswaarden de enige optie (foto rechts). Je gaat nu een klein stukje van zo een tabel opstellen. Je zal merken dat dit tijdrovend werk is dus we beperken ons tot een selectie van hoeken in het eerste kwadrant.
+  </p>
+
+  <sidebyside widths="45% 45%" margins="auto" valign="middle">
+      <image source="Rekenliniaal.jpg"/>
+      <image source="GonioTabellen.png"/>
+  </sidebyside>
+
+  <activity>
+    <p>
+      <ol>
+        <li>
+          <p>
+            Noteer de sinus en cosinus van 30<m>^{\circ}</m>, 45<m>^{\circ}</m> en 60<m>^{\circ}</m>; noteer ook de formules voor <m>\sin (\alpha \pm \beta)</m> en <m>\cos (\alpha \pm \beta)</m> die je eerder al opstelde. Bereken op basis van deze gegevens de sinus en cosinus van 15<m>^{\circ}</m> en 75<m>^{\circ}</m>. Laat breuken en wortels staan, maar controleer je resultaten wel met je rekenmachine.
+          </p>
+        </li>
+        <li>
+          <p>
+            Bereken vervolgens de sinus en cosinus van 7,5<m>^{\circ}</m>;  22,5<m>^{\circ}</m> en  37,5<m>^{\circ}</m> met de halveringsformules. Nu mag je wel met numerieke benaderingen van de vierkantswortels werken. Werk op vijf cijfers na de komma nauwkeurig.
+          </p>
+          <p>
+            Als je de goniometrische getallen van een hoek <m>\alpha</m> kent, kan je altijd de goniometrische getallen van de hoek <m>\dfrac{\alpha}{2}</m> berekenen. Uit de goniometrische getallen van 7,5<m>^{\circ}</m> volgens dus deze van  3,75<m>^{\circ}</m>;  1,875<m>^{\circ}</m>; <m>\ldots</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            Gebruik onderstaande figuur om een exacte uitdrukking voor de cosinus van 36<m>^{\circ}</m> af te leiden. Enkele tips:
+            <ol>
+              <li>
+                <p>
+                  Zoek twee gelijkvormige driehoeken. Dit zal je toelaten om de lengtes van alle lijnstukken te bepalen.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Om <m>\cos 36^{\circ}</m> te bepalen moet je een hulplijn aan de figuur toevoegen.
+                </p>
+              </li>
+            </ol>
+            Bereken daarna ook <m>\sin 36^{\circ}</m>.
+          </p>
+          <sidebyside width="50%">
+            <image source="cos36.png"/>
+          </sidebyside>
+        </li>
+        <li>
+          <p>
+            Bepaal de sinus en cosinus van <m>\sin 18^{\circ}</m> en <m>\sin 3^{\circ}</m>. Noteer opnieuw de exacte resultaten.
+          </p>
+        </li>
+        <li>
+          <p>
+            Leg uit hoe je de sinus en cosinus van 6<m>^{\circ}</m> kan berekenen. Je hoeft de berekeningen niet uit te voeren.
+          </p>
+        </li>
+      </ol>
+    </p>
+  </activity>
+
+  <p>
+    De laatste opdracht gaat over het bepalen van de sinus en cosinus van 1<m>^{\circ}</m>. Die kunnen op verschillende manieren berekend worden, maar het afleiden van eenvoudige uitdrukkingen lukt niet als we enkel reële getallen mogen gebruiken. We houden het dus bij numerieke benaderingen, maar als je rekent in <m>\mathbb{C}</m> (zie volgend hoofdstuk) kan je schrijven dat: 
+    <me>
+      \sin 1^{\circ}=\frac{\sqrt[90]{\sqrt{-1}}-\sqrt[90]{-\sqrt{-1}}}{2 \sqrt{-1}}
+    </me>
+  </p>
+
+  <activity>
+    <p>
+      <ol>
+        <li>
+          <p>
+            Bewijs dat <m>\sin 3 \alpha=3 \sin \alpha - 4 \sin^3 \alpha</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Stellen we <m>\alpha=1^{\circ}</m>, dan leidt bovenstaande identiteit tot een vergelijking in <m>\sin 1^{\circ}</m>. Bepaal een benadering voor <m>\sin 1^{\circ}</m> door deze vergelijking grafisch op te lossen.
+          </p>
+        </li>
+        <li>
+          <p>
+            Bereken tenslotte <m>\sin 5^{\circ}</m> en <m>\cos 5^{\circ}</m> tot op vijf cijfers na de komma nauwkeurig.
+          </p>
+        </li>
+      </ol>
+    </p>
+
+  </activity>
+</section>
+
+</chapter>

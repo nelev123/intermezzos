@@ -25,7 +25,7 @@
       \usetikzlibrary{decorations.pathmorphing,patterns}
       \usetikzlibrary{calc}
       \usepackage{pgfplots}
-      \pgfplotsset{compat=1.18}
+      \pgfplotsset{compat=1.17}
       \usepackage{tkz-tab}
       \usepackage{tikzit}
       \tikzstyle{functie klein}=[fill=none, draw=black, shape=rectangle, thick, minimum width=2 cm, minimum height=0.9 cm]
@@ -41,7 +41,7 @@
   </docinfo>
 
   <book xml:id="analyse">
-    <title>Analyse</title>
+    <title>Wiskundige intermezzo's</title>
     <subtitle>3de graad ASO met 5 of 7 lesuren per week </subtitle>
 
     <frontmatter xml:id="frontmatter">
@@ -106,6 +106,7 @@
 
     <xi:include href="./patronen.ptx"/>
     <xi:include href="./vkv.ptx" />
+    <xi:include href="project-driehoeksmeting.ptx"/>
 
     <backmatter xml:id="backmatter">
       <title>Achteraf</title>
