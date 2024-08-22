@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-vkv">
+    <title>Vierkantsvergelijkingen oplossen</title>
+
+    <p>
+        In dit intermezzo bekijken we het oplossen van vierkantsvergelijkingen of kwadratische vergelijkingen even op een visuele manier. 
+    </p>
+   
+    <investigation>
+        <introduction>
+            <p>
+                Voor de oude Grieken stond wiskunde eigenlijk gelijk aan meetkunde en getallen werden beschouwd als lengtes van lijnstukken. Dit betekent dat  <em> het product van twee getallen <m>a</m> en <m>b</m> gelijk is aan de oppervlakte van een rechthoek met zijden <m>a</m> en <m>b</m> </em>. Je kan producten dus visualiseren door rechthoeken te tekenen en hiermee bepaalde rekenregels en algebraïsche identiteiten grafisch voorstellen.                   
+            </p>
+        </introduction>
+        <task>
+            <p>
+                Stel de <term>distributiviteit</term> van de vermenigvuldiging t.o.v. de optelling grafisch voor.
+                <me>
+                a(b+c)=ab+ac
+                </me>
+            </p>
+            </task>
+            <task>
+            <p>
+                Formuleer een meetkundige verklaring voor de <term>associativiteit</term> van de vermenigvuldiging. 
+                <me>
+                a(bc)=(ab)c
+                </me>
+            </p>
+            </task>
+            <task>
+            <p>
+                Stel onderstaande identiteiten grafisch voor:
+                <md>
+                <mrow>(a+b)^2=a^2+2ab+b^2</mrow>
+                <mrow>(a-b)^2=a^2-2ab+b^2</mrow>
+                <mrow>a^2-b^2=(a+b)(a-b)</mrow>
+                </md>
+            </p>
+            </task>
+    </investigation>
+
+        <p>
+         Elke kwadratische vergelijking kan steeds geformuleerd worden als het bepalen van de zijde van een vierkant met een gegeven oppervlakte. De term vierkantsvergelijking als synoniem voor kwadratische vergelijking is dus niet voor niets gekozen.
+        </p>
+
+        <investigation>
+            <task>
+                <statement>
+                    <p>
+                        Stel de vergelijking <m>x^2=4</m> meetkundig voor. Let op! Deze vergelijking heeft twee oplossingen en je tekening moet dit ook duidelijk maken. <em>Tip: voer een assenstelsel in en beschouw zowel positieve als negatieve lengtes.</em> Neem eventueel even de tijd om je te bezinnen over het concept van een negatieve oppervlakte.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Beschouw de kwadratische vergelijking <m>x^2+10x-39=0</m>. Als we de vergelijking herschrijven als <m>x^2+10x=39</m> kunnen we het rechterlid interpreteren als de som van de oppervlaktes van een vierkant en een rechthoek. Toon, via een tekening, aan dat deze vergelijking kan herschreven worden als <m>y^2=64</m>, waarbij <m>y</m> natuurlijk van <m>x</m> afhangt. Dit vergt wat puzzelwerk met vierkanten en rechthoeken. Het is voldoende om een schets te maken, op schaal tekenen hoeft niet. 
+                    </p>
+                    <p>
+                        Los vervolgens de vergelijking <m>y^2=64</m> algebraïsch op naar <m>x</m>. 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Los nu ook de vergelijking <m>x^2-4x-5=0</m> op dezelfde manier op. 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                    En tenslotte de vergelijking <m>x^2-10x+21=0</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                      De vergelijking <m>x^2-10x+21=0</m> heeft geen oplossingen. Ga dit meetkundig na! 
+                    </p>
+                </statement>
+            </task>
+        </investigation>
+    
+        <activity>
+          <statement>
+            <p>
+              Leid nu de algemene formule af voor het oplossen van een vierkantsvergelijking <m>ax^2+bx+c=0</m>. Deel de vergelijking eerst door <m>a</m> zodat je een vierkant met zijde <m>x</m> hebt om van te vertrekken.
+            </p>
+          </statement>
+        </activity>
+    
+        <p>
+          Het oplossen van de kwadratische vergelijking <m>ax^2+bx+c=0</m> verloopt dus als volgt:
+          <ol>
+            <li>
+              <p>
+                Deel de vergelijking door <m>a</m> en breng de constante term naar het rechterlid. We krijgen dan de equivalente vergelijking <m>x^2+\frac{b}{a}x=-\frac{c}{a}</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                Vervolledig het kwadraat in het linkerlid (<q>maak een vierkant</q>) en los de vergelijking op:
+                <md>
+                  <mrow>\amp x^2+\frac{b}{a}x+\frac{b^2}{4a^2}=\frac{b^2}{4a^2}-\frac{c}{a}</mrow>
+                  <mrow>\Leftrightarrow \; \amp \left(x+\frac{b}{2a}\right)^2=\frac{b^2-4ac}{4a^2}</mrow>
+                  <mrow>\Leftrightarrow \;\amp \left(x+\frac{b}{2a}\right)^2=\frac{D}{4a^2}</mrow>
+                  <mrow>\Leftrightarrow \; \amp x=\frac{-b \pm \sqrt{D}}{2a} </mrow>
+                </md>
+                waarbij we de discriminant <m>D=b^2-4ac</m> hebben ingevoerd. Uit deze afleiding volgt ook onmiddellijk waarom een kwadratische vergelijking geen oplossing heeft als <m> D \lt 0 </m>. Een kwadraat kan immers nooit negatief zijn. <fn>Toch niet als we in de verzameling van de reële getallen blijven.</fn>
+              </p>
+            </li>
+          </ol>
+        </p>
+        <example>
+          <p>
+            We passen bovenstaande methode toe op om de vergelijking <m>x^2-7x+10=0</m> op te lossen:
+            <md>
+              <mrow> \amp \left (x -\frac{7}{2} \right)^2 = -10+\frac{49}{4}</mrow>
+              <mrow> \Leftrightarrow \; \amp \left (x -\frac{7}{2} \right)^2 = \frac{9}{4}</mrow>
+              <mrow>\Leftrightarrow \; \amp  x = \frac{7}{2} \mp \frac{3}{2} </mrow>
+              <mrow>\Leftrightarrow \; \amp  x = 2 \qquad \text{of} \qquad x=5 </mrow>
+            </md>
+          </p>
+        </example>
+    
+        <activity>
+          <statement>
+            <p>
+              Los onderstaande vierkantsvergelijkingen op door het kwadraat te vervolledigen. 
+              <ol>
+                <li>
+                  <p>
+                    <m>x^2-8x+7=0</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>-x^2-x+6=0</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>x^2+10x-1=0</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>3x^2-27x+9=0</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>-2x^2-4x+16=0</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>5x^2+10x+15=0</m>
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </statement>
+        </activity>
+ 
+</chapter>

@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="ch-patronen">
+    <title>Wiskunde is de wetenschap van patronen</title>
+
+    <p>
+        Over de vraag <q>Wat is wiskunde?</q> zijn er hele boeken geschreven. Het is een boeiend vak met veel facetten en één van de belangrijkste menselijke verwezenlijkingen. Wiskunde wordt weleens de wetenschap van patronen genoemd en het is deze invalshoek waar eerst even kort bij stilstaan. 
+    </p>
+    <p>
+        Patronen spelen sowieso een belangrijke rol in de wiskunde. Enkele eenvoudige voorbeelden:
+        <ul>
+            <li>
+                <p>
+                In een driehoek
+                    <ul>
+                        <li>
+                            <p>
+                        is de som van de hoeken altijd gelijk aan <m>180\g</m>
+                            </p>
+                            <sidebyside width="65%">
+                                <image source="som-van-hoeken.png"/>
+                            </sidebyside>
+                        </li>
+                        <li>
+                            <p>
+                        gaan de hoogtelijnen altijd door één punt.
+                            </p>
+                            <sidebyside width="65%">
+                                <image source="hoogtelijnen.png"/>
+                            </sidebyside>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Elk natuurlijk getal kan op een unieke manier geschreven worden als een product van priemgetallen:
+                    <md>
+                        <mrow> \amp 20 = 2^2 \cdot 5 \amp 25 \amp = 5^2</mrow>
+                        <mrow> \amp 21 = 3 \cdot 7 \amp 26 \amp = 2 \cdot 13 </mrow>
+                        <mrow> \amp 22 = 2 \cdot 11 \amp 27 \amp = 3^3</mrow>
+                        <mrow> \amp 23 \amp 28 \amp = 2^2 \cdot 7 </mrow>
+                        <mrow> \amp 24 = 2^3 \cdot 3 \amp 29 \amp </mrow>
+                    </md>
+                </p>
+            </li>
+            <li>
+                <p>
+                  Het irrationaal getal <m>\pi</m> kan geschreven worden als een oneindige som
+                 <me>
+                    \frac{\pi}{4}=1-\frac{1}{3}+\frac{1}{5}-\frac{1}{7}+\frac{1}{9}-\ldots
+                 </me>            
+                </p>
+            </li>
+        </ul>
+        Enkel het laatste voorbeeld kwam nog niet eerder aan bod in de wiskundelessen en dat zal jammer genoeg ook nog wel even duren. 
+    </p>
+    
+    <assemblage xml:id="assemblage-wetenschap-patronen">
+     <blockquote>
+        <p>
+           A mathematician, like a painter or a poet, is a maker of patterns. If his patterns are more permanent than theirs, it is because they are made with ideas. 
+        </p>
+         <sidebyside width="40%">
+            <image source="Hardy.jpg">
+                <description>Foto van G.H. Hardy.</description>
+            </image>
+        </sidebyside>       
+        <attribution>
+            <p>
+                G. H. Hardy (1877-1947) in A Mathematician's Apology. 
+            </p>
+        </attribution>
+     </blockquote>
+    </assemblage>
+
+
+    <aside>
+        <p>
+            Kijktip: <url href="https://www.imdb.com/title/tt0787524/" visual="www.imdb.com/title/tt0787524">The Man Who Knew Infinity</url>
+        </p>
+    </aside>
+
+    <investigation>
+        <task>
+        <title>Even getallen (groter dan 2)</title>
+            <p>
+               Bestudeer onderstaand rijtje van even getallen:
+               <md> 
+                <mrow> \amp 4 = 2 + 2 </mrow>
+                <mrow> \amp 6 = 3 + 3 </mrow>
+                <mrow> \amp 8 = 3 + 5 </mrow>
+                <mrow> \amp 14 = 3 + 11 = 7 + 7</mrow>
+                <mrow> \amp 18 = 5 + 13 = 7 + 11 </mrow>
+                <mrow> \amp 26 = 3 + 23 = 7 + 19</mrow>
+                <mrow> \amp 28 = 5 + 23 = 11 + 17 </mrow>
+                <mrow> \amp 36 = 5 + 31 = 7 + 29 = 13 +23 = 17 +19</mrow>
+                <mrow> \amp 60 = 7 + 53 = 13 + 47 = 17 + 43 = 9 + 41 = 23 + 37 = 29 + 31 </mrow>
+               </md> 
+               Welk patroon herken je? Formuleer dit zo beknopt mogelijk.
+            </p>
+        </task>
+        <task>
+        <title>Veelvouden van 3</title>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                          Schrijf alle veelvouden van 3 op, groter dan 10 en kleiner dan 50.  
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Tel de cijfers van elk getal op. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Welk patroon merk je op? Formuleer dit zo beknopt mogelijk.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </task>
+        <task xml:id="patroon-bolletjes-vierkanten">
+            <p>
+                Gegeven het onderstaande patroon van drie tekeningen:
+            </p>
+            <sidebyside>
+                <image source="patroon.png" width="100%">
+                </image>
+            </sidebyside>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Maak zelf de vierde tekening. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Hoeveel bolletjes bevat tekening 8 van het patroon?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           Schrijf een uitdrukking op die het aantal gekleurde vierkantjes voor de <m>n</m>-de tekening van het patroon geeft.  
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <!--meer voorbeelden op website over patronen-->
+        </task>
+        <task>
+            <p>
+                Zoek zoveel mogelijk patronen in onderstaande driehoek van getallen.
+            </p>
+            <sidebyside>
+                <image source="driehoek-pascal.png" width="100%"> </image>
+            </sidebyside>
+        </task>
+    </investigation>
+    
+</chapter>
