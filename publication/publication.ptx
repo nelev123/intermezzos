@@ -83,9 +83,9 @@
     <!-- Lots of elements have this possibility; see the guide -->
     <knowl
       theorem="no"
-      proof="no"
+      proof="yes"
       definition="no"
-      example="no"
+      example="yes"
       example-solution="yes"
       project="no"
       task="no"
